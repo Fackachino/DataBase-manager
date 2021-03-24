@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="472.0" prefWidth="331.0" style="-fx-background-color: #2b2e4a;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ControllerAuthorization">
+   <Button fx:id="btnAutho" layoutX="59.0" layoutY="255.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="214.0" text="Авторизоваться" />
+   <Text fill="#f7f7f7" layoutX="88.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Авторизация">
+      <font>
+         <Font name="Cambria" size="26.0" />
+      </font></Text>
+   <TextField fx:id="fldUserName" layoutX="59.0" layoutY="129.0" prefHeight="25.0" prefWidth="214.0" promptText="Username" />
+   <TextField fx:id="fldPass" layoutX="59.0" layoutY="177.0" prefHeight="25.0" prefWidth="214.0" promptText="Password" />
+</AnchorPane>
